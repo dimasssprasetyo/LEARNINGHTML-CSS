@@ -1,0 +1,172 @@
+body {
+    background: linear-gradient(blue, black);
+    background-position: center;
+    background-size: cover;
+}
+.menu {
+    font-family: sans-serif;
+    font-size: 40px;
+    color: #ffffff;
+}
+.icon {
+    font-family: sans-serif;
+    font-size: 15px;
+    color: #ffffff;
+}
+.btn {
+    width: 100%;
+    height: 40px;
+    font-size:15px;
+    color:#ffffff;
+    background-image: linear-gradient( blue, black);
+    border:none;
+    border-radius: 15px;
+    margin-top: 6px;
+    padding: 10px;
+    display: block;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2;
+}
+.btn:hover {
+  background: linear-gradient(grey, black);
+  transform: scale(0.95);
+}
+.btn:active {
+  transform: scale(0.95);
+  box-shadow: inset 0 0 10px rgb(255, 255, 255);
+}
+a {
+    color: #ffffff;
+}
+.wrapper {
+    display: flex;
+    margin-left: -8px;
+    margin-top: -8px;
+    margin-right: -8px;
+}
+.sidebar {
+    float: left;
+    width: 30%;
+    height: 1000px;
+    background: black;
+    padding: 10px 20px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin-bottom: -10px;
+}
+.main-content {
+  padding: 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: sans-serif;
+  font-size: 35px;
+  padding: 10px 20px;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  color: blue;
+}
+.logo {
+  height: 50px;
+  width: 50px;
+}
+.card {
+  background: solid transparent;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.card-header {
+  background: #f9f9f9;
+  padding: 10px 15px;
+  font-weight: bold;
+  border-bottom: 1px solid #ccc;
+  font-family: sans-serif;
+  align-items: center;
+}
+.user, .fa-solid.fa-user, .fa-solid.fa-book, .fa-solid.fa-folder-open {
+  color: Blue;
+}
+.biodata .row {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 15px;
+  border-bottom: 1px dotted #ccc;
+  font-family: sans-serif;
+  color: white;
+}
+.tabel-row {
+  display: flex;
+  padding:10px 15px;
+  color:white;
+  background-color: blue;
+}
+.tabel-row > div {
+  flex: 1;
+  text-align: left;
+  font-family: sans-serif;
+}
+.tabel-row.header {
+  background: #2B35AF;
+  padding: 10px 15px;
+  font-weight: bold;
+  margin: auto;
+  border-bottom: 1px solid #ccc;
+  border-radius: 0;
+  font-family: sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+}
+.tabel-row.bro {
+  background-color: #1E90FF;
+}
+.images {
+  display: flex;
+  padding: 25px;
+  text-align: center;
+  background-color: white;
+  justify-content: center;
+  gap: 10px;
+}
+.images-item {
+  width: 185px;
+  text-align: center;
+  border: 3px solid white;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  margin: 0px;
+}
+.images-item img {
+  width: 100%;
+  border-radius: 15px;
+  object-fit: cover;
+  height: 125px;
+}
+.desk {
+  background-color: blue;
+  font-family: sans-serif;
+  width: 85%;
+  border-radius: 15px;
+  font-size: 12px;
+  color: White;
+  margin: 10px auto;
+  padding: 5px;
+}
+.images-item p {
+  font-family: sans-serif;
+  margin-bottom: 40px;
+  font-size: 15px;
+  color: black;
+}
